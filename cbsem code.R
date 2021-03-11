@@ -1,6 +1,7 @@
 library(lavaan)
 library(semPlot)
-View(TEST1)
+
+TEST1 <- read_excel("C:/Users/Bayu/Downloads/TEST1.xlsx")
 
 path1 = 'PEU=~PEU1+PEU2+PEU3 
 PUF=~PUF1+PUF2+PUF3 
